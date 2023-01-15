@@ -1,0 +1,278 @@
+*{
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+/* .......header section........ */
+.header{
+    background: rgba(255, 166, 0, 0.1);
+    width: 1920px;
+    height: 1300px;
+}
+/* .......nav-bar section........ */
+.nav-container{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.nav-title{
+    font-size: 30px;
+}
+.home-list ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* .......header banner section....... */
+.header-banner{
+    display: grid;
+    width: 868px;
+    padding-top: 116px;
+}
+.header-title{
+    font-size: 64px;
+    text-align: center;
+}
+.photo-title, 
+.feature-title, 
+.some-facts-title, 
+.sponsors-title {
+    font-size: 45px;
+}
+.header-description, 
+.photo-gallery-description, 
+.some-facts-description, 
+.sponsors-description{
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    padding: 20px 0 30px;
+}
+.btn, .ten-plus-btn{
+    background-color: orange;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.header-img{
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 700px;
+    object-fit: cover;
+    margin-left: 240px;
+}
+/* Main section: Photo gallery: Quick list of Our Features */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main-sub-container{
+    margin: 0 50px;    
+}
+.photo-gallery-parent{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-top: 85px;
+}
+.photo-gallery-container{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 24px;
+}
+.photo-gallery-container img{
+    background-repeat: no-repeat;
+    width: 342px;
+    height: 342px;
+}
+.photo-title-container{
+    padding-right: 120px;
+}
+.title-color-gray{
+    color: gray;
+}
+.title-color-orange{
+    color: orange;
+}
+.photo-gallery-description{
+    text-align: left;
+}
+/* ..........Features you will love & enjoy.......... */
+.features-container{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    width: 100%;
+    margin-top: 130px;
+}
+.features-sub-container{
+    width: 40%;
+}
+.vertical-line{
+    display: flex;
+}
+.vertical-color{
+    width: 15px;
+    height: 83px;
+    background-color: orange;
+}
+.feature-title{
+    padding-left: 20px;
+    padding-right: 100px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.features-article{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.article-title{
+    font-size: 20px;
+    font-weight: 600px;
+    padding-top: 40px;
+}
+.article-description{
+    color: gray;
+    padding-top: 10px;
+}
+.features-image{
+    background-image: url(../images/architect.png);
+    width: 50%;
+    height: 850px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.ten-plus-btn{
+    margin: 480px 0;
+}
+.ten-plus-btn{
+    font-size: 50px;
+    font-weight: 700;
+}
+.ten-plus-btn > p{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* ...........Section: Some Facts............. */
+.some-facts{
+    margin: 100px 0 80px;
+    width: 500px;
+}
+.some-facts-description{
+    text-align: left;
+    padding-top: 15px;
+}
+.icon-container{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    transition: width 1s, height 1s, transform 3s;
+}
+/* ........animation start........... */
+.icon:hover{
+    border: 3px solid rgb(103, 70, 8);
+    background-color: rgba(255, 166, 0, 0.2);
+    width: 250px;
+    height: 250px;
+    transform: rotate(360deg);
+}
+/* ........animation end........... */
+.icon > img{
+    width: 60px;
+    height: 60px;
+}
+.icon > h1{
+    font-size: 45px;
+    padding: 15px 0 10px;
+}
+.icon > h4{
+    font-size: 20px;
+    color: gray;
+}
+/* .........Section: Our Sponsors........ */
+.sponsors-container{
+    width: 500px;
+}
+.sponsors-title{
+    text-align: center;
+}
+.sponsors-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 120px;
+}
+/* ..........Added new section............. */
+.questions-container{
+    background-color: rgba(255, 166, 0, 0.3);
+    height: 500px;
+    width: 1440px;
+    margin-right: 400px;
+    border-radius: 8px;
+}
+.questions-title{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.question-sub-container{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 150px;
+    width: 1340px;
+    border-radius: 8px;
+}
+.question-sub-title-container{
+    background-color: rgba(255, 166, 0, 0.5);
+    height: 60px;
+    width: 1340px;
+    border-radius: 8px;
+}
+.question-sub-title-container > h5{
+    font-size: 30px;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+.question-sub-title-container i{
+    color: gray;
+}
+.question-description{
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 70px 0 70px;
+}
+/* .......Section: footer....... */
+.footer-container{
+    background-color: rgba(255, 166, 0, 0.3);
+    height: 100px;
+    width: 1920px;
+    margin-top: 20px;
+}
+.footer-description{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    color: #424242;
+}
+/* .....Responsive for mobile device...... */
+@media screen and (max-width: 576px) {        
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
